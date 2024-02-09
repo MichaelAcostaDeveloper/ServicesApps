@@ -1,0 +1,21 @@
+<!--
+  @author            : Fernando M. Acosta P.
+  @Equipo            : CRM
+  @last modified on  : 02-09-2024
+  @last modified by  : Fernando M. Acosta P.
+  @Descripción       : Componente o clase apex ...
+-->
+<template>
+    <lightning-card>
+        <h3 slot="title">
+            <lightning-icon icon-name="utility:connected_apps" size="small"></lightning-icon>
+            Fake Products
+        </h3>
+        <div slot="footer">
+                <lightning-button variant="brand-outline" label="Execute service" title="Successful action" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+                <lightning-button variant="neutral" label="Reset records" title="Successful action" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+                <lightning-button variant="destructive-text" label="Show cards" title="Successful action" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+        </div>
+        <p class="slds-p-horizontal_small">This is a component that show the response of a service!</p>
+    </lightning-card>
+</template>
