@@ -155,7 +155,7 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>Fake Product</label>
     <nameField>
-        <label>Product Fake Name</label>
+        <label>Id</label>
         <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
