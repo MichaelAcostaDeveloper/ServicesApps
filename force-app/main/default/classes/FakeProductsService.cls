@@ -49,3 +49,6 @@ public with sharing class FakeProductsService {
         return res.getBody();
     }
 }
+
+//Esta clase se invoca
+//FakeProductsService.obtenerFakeProducts();

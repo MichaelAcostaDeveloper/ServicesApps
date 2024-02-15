@@ -11,3 +11,6 @@ public with sharing class DeleteFakeProducts {
         delete fakeProductToDelete;
     }
 }
+
+//Esta clase se invoca
+//DeleteFakeProducts.deleteFakeProduts();
